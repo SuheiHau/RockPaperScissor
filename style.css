@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    height: 300px;
+    width: 55%;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.scoreboard {
+    font-size: 20x;
+    margin-bottom: 20px;
+}
+
+.choice {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    /*make the img fit to ori*/
+    border-radius: 50%;
+    /*make img circle*/
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: -1rem;
+    align-items: center;
+}
+
+.choice:hover {
+    /* opacity: 0.5; */
+    border-radius: 50%;
+    background-color: #541770;
+    cursor: pointer;
+}
+
+.reset {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #8e6ddc;
+    border: 2px solid black;
+
+}
